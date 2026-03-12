@@ -51,7 +51,6 @@ public class Main {
 
     private static void addItem() {
         List<Product> products = service.getProducts();
-
         try {
             System.out.print("Nhập id: ");
             String idInput = sc.nextLine();
